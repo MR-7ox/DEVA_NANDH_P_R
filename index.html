@@ -3,65 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Devanandh P R | Resume</title>
+<title>Deva Nandh P R | Resume</title>
 
 <style>
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
-    line-height: 1.6;
+    background: #f8fafc;
+    color: #0f172a;
 }
 
 .container {
     max-width: 900px;
     margin: auto;
-    padding: 40px 20px;
+    padding: 20px;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-header h1 {
-    font-size: 32px;
+h1 {
     margin-bottom: 5px;
-    color: #38bdf8;
 }
 
-header p {
-    margin: 5px 0;
+.header {
+    text-align: center;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+.contact {
     font-size: 14px;
-    color: #94a3b8;
+    margin-top: 5px;
 }
 
-section {
-    margin-bottom: 35px;
+.section {
+    margin-top: 20px;
 }
 
-h2 {
-    border-left: 4px solid #38bdf8;
-    padding-left: 10px;
+.section h2 {
+    border-bottom: 1px solid #cbd5f5;
+    padding-bottom: 5px;
     font-size: 18px;
-    margin-bottom: 15px;
-    color: #38bdf8;
-}
-
-.card {
-    background: #1e293b;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 12px;
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 18px;
 }
 
 a {
-    color: #38bdf8;
+    color: #2563eb;
     text-decoration: none;
 }
 
@@ -69,12 +57,10 @@ a:hover {
     text-decoration: underline;
 }
 
-.footer {
-    text-align: center;
-    font-size: 12px;
-    color: #64748b;
-    margin-top: 40px;
+.small {
+    font-size: 14px;
 }
+
 </style>
 </head>
 
@@ -82,83 +68,118 @@ a:hover {
 
 <div class="container">
 
-<header>
-    <h1>Devanandh P R</h1>
-    <p>Thrissur, Kerala | +91 9074986119 | devanandhpr@gmail.com</p>
-    <p>
-        <a href="https://github.com/MR-7ox">GitHub</a> |
-        <a href="#">LinkedIn</a>
+<!-- HEADER -->
+<div class="header">
+    <h1>Deva Nandh P R</h1>
+    <div class="contact">
+        +91 9074986119 |
+        <a href="mailto:devanandhpr@gmail.com">devanandhpr@gmail.com</a> |
+        <a href="https://mr-7ux.github.io/DEVA_NANDH_P_R">Portfolio</a> |
+        <a href="https://linkedin.com/in/devanandhpr">LinkedIn</a> <br>
+        Thrissur, Kerala
+    </div>
+</div>
+
+<!-- SUMMARY -->
+<div class="section">
+    <h2>Summary</h2>
+    <p class="small">
+        AI/ML and Robotics developer with hands-on experience building cross-platform applications using Flutter and Firebase.
+        Skilled in machine learning, computer vision, and DevOps practices for scalable systems.
+        Passionate about developing innovative real-world solutions integrating AI and embedded systems.
     </p>
-</header>
+</div>
 
-<section>
-    <h2>Professional Summary</h2>
-    <div class="card">
-        Computer Science Engineering student specializing in Machine Learning with strong foundations in Linux systems, networking, and DevOps principles. Experienced in building AI-powered mobile applications and embedded systems. Passionate about system reliability, automation, and scalable software architecture.
-    </div>
-</section>
-
-<section>
+<!-- SKILLS -->
+<div class="section">
     <h2>Technical Skills</h2>
-    <div class="card">
-        <strong>Languages:</strong> Python, Dart, C, C++ <br><br>
-        <strong>Frameworks & Tools:</strong> Flutter, Firebase, Git, REST APIs, OpenCV, TensorFlow, PyTorch <br><br>
-        <strong>Systems:</strong> Arch Linux, Ubuntu, SSH, Apache, TCP/IP basics <br><br>
-        <strong>Domains:</strong> Mobile App Development, AI Integration, IoT Systems
-    </div>
-</section>
+    <p class="small"><b>Languages:</b> Python, Dart, C, Java, Assembly</p>
+    <p class="small"><b>Frameworks & Tools:</b> Flutter, Firebase, REST API, TensorFlow, PyTorch, OpenCV, LangChain, ROS, Scikit-learn, Flask, FastAPI, Google Cloud, Kubeflow, Linux (Arch), vLLM, Uvicorn, Daphne</p>
+    <p class="small"><b>Hardware / IoT:</b> LiDAR, ESP32, Raspberry Pi, SLAM</p>
+    <p class="small"><b>Databases:</b> Firestore, SQL</p>
+</div>
 
-<section>
-    <h2>Professional Experience</h2>
-    <div class="card">
-        <strong>Flutter App Developer – Assitrend (2024–Present)</strong>
-        <ul>
-            <li>Developing mental-health focused social media application.</li>
-            <li>Following structured deployment and collaborative workflows.</li>
-        </ul>
-    </div>
+<!-- EXPERIENCE -->
+<div class="section">
+    <h2>Experience</h2>
 
-    <div class="card">
-        <strong>Intern – Zelto Home Services (2021–2022)</strong>
-        <ul>
-            <li>Transformed web-based booking platform into cross-platform Flutter app.</li>
-            <li>Handled backend API integration and performance optimization.</li>
-        </ul>
-    </div>
-</section>
+    <p><b>Technical Workshop Instructor</b> <span class="small">(Jun 2024 – Present)</span></p>
+    <ul>
+        <li>Conducted hands-on sessions for 100+ students on Python and low-level programming.</li>
+        <li>Created structured learning materials and delivered technical sessions.</li>
+    </ul>
 
-<section>
+    <p><b>Intern – Zelto Home Services</b> <span class="small">(2023)</span></p>
+    <ul>
+        <li>Converted a web-based platform into a Flutter mobile application.</li>
+    </ul>
+</div>
+
+<!-- PROJECTS -->
+<div class="section">
     <h2>Projects</h2>
-    <div class="card">
-        <ul>
-            <li><strong>AI Productivity App:</strong> GenAI-based task recommendation system.</li>
-            <li><strong>Pose Estimation & Calorie Tracker:</strong> CNN-based 97% accurate workout tracking using OpenCV.</li>
-            <li><strong>Smart Lock System:</strong> ESP32 real-time face recognition access control.</li>
-        </ul>
-    </div>
-</section>
 
-<section>
-    <h2>Achievements</h2>
-    <div class="card">
-        <ul>
-            <li>1st Prize – CTF Competition (2025)</li>
-            <li>Winner – Flexihon National Hackathon (2024)</li>
-            <li>Winner – Hexinox National Hackathon</li>
-        </ul>
-    </div>
-</section>
+    <p><b>Pose Estimation & Caloric Training App</b></p>
+    <ul>
+        <li>Built a Flutter app with CNN model (97% accuracy).</li>
+        <li>Implemented real-time tracking and calorie estimation using OpenCV.</li>
+    </ul>
 
-<section>
+    <p><b>Visual Aid System for the Blind</b></p>
+    <ul>
+        <li>Developed a wearable system using LiDAR, SLAM, and Raspberry Pi.</li>
+        <li>Integrated GPS and camera data with vLLM for contextual awareness.</li>
+    </ul>
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
     <h2>Education</h2>
-    <div class="card">
-        <strong>B.Tech Computer Science (Honours in ML)</strong><br>
-        Mar Baselios Christian College of Engineering, Peermade (2022–2026)
-    </div>
-</section>
 
-<div class="footer">
-    © 2026 Devanandh P R
+    <p><b>Mar Baselios Christian College of Engineering, Peermade</b><br>
+    <span class="small">B.Tech CSE (Honours in Machine Learning) | 2022 – 2026</span></p>
+
+    <p><b>Kendriya Vidyalaya Thrissur</b><br>
+    <span class="small">Primary and Secondary Education | 2010 – 2022</span></p>
+</div>
+
+<!-- ACHIEVEMENTS -->
+<div class="section">
+    <h2>Achievements</h2>
+    <ul>
+        <li>1st Prize – CTF Competition (2025)</li>
+        <li>Winner – Hexinox National Level Hackathon</li>
+        <li>1st Prize – ASME Project Expo (Enginex 2026)</li>
+    </ul>
+</div>
+
+<!-- CERTIFICATIONS -->
+<div class="section">
+    <h2>Certifications</h2>
+    <ul>
+        <li>MLOps Specialization – Google</li>
+        <li>Introduction to Deep Learning – NPTEL (IIT Roper)</li>
+        <li>Reinforcement Learning – NPTEL (IIT Madras)</li>
+    </ul>
+</div>
+
+<!-- LANGUAGES -->
+<div class="section">
+    <h2>Languages</h2>
+    <p class="small">English, Hindi, Malayalam</p>
+</div>
+
+<!-- REFERENCES -->
+<div class="section">
+    <h2>References</h2>
+
+    <p class="small"><b>Dr. Ushus Maria</b><br>
+    HOD, CSE Department, MBCCET<br>
+    Ph: 7520945771</p>
+
+    <p class="small"><b>Adhil A</b><br>
+    Project Head, Zelto Home Services<br>
+    Ph: 6337762505</p>
 </div>
 
 </div>
